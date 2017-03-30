@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "author": {
+    "name": "menglb"
+  },
+  "description": "基于nodejs的im实时通信测试",
+  "dependencies": {
+    "mosca": "^2.3.0",
+    "mqtt": "^2.5.0"
+  }
+}
