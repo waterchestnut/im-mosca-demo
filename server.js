@@ -19,6 +19,11 @@ var settings = {
     persistence:{
         factory: mosca.persistence.Mongo,
         url: "mongodb://192.168.100.216:8017/mosca"
+    },
+    http: {
+        port: 3112,
+        bundle: true,
+        static: './'
     }
 };
 var server = new mosca.Server(settings);
